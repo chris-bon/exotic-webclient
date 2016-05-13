@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Animal</th>
+  </tr>
+  <% @animals.each do |animal| %>
+    <tr>
+      <th><%= animal.id %></th>
+      <th><%= animal.name %></th>
+    </tr>
+  <% end %>
+</table>
